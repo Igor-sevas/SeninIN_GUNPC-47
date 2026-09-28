@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\array\\",
+  "WorkspaceRootPath": "C:\\Users\\fenix\\Documents\\SeninIN_GUNPC-47\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD283620-8075-4D0E-BAF4-45AFC8CDDA4C}|array\\array.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\array\\array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD283620-8075-4D0E-BAF4-45AFC8CDDA4C}|array\\array.csproj|solutionrelative:array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BD1D60D-3A5D-D012-068D-B8B5E79F8D0E}|array\\array.csproj|c:\\users\\fenix\\documents\\seninin_gunpc-47\\array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD1D60D-3A5D-D012-068D-B8B5E79F8D0E}|array\\array.csproj|solutionrelative:array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\array\\array\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\fenix\\Documents\\SeninIN_GUNPC-47\\array\\Program.cs",
               "RelativeDocumentMoniker": "array\\Program.cs",
-              "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\array\\array\\Program.cs",
+              "ToolTip": "C:\\Users\\fenix\\Documents\\SeninIN_GUNPC-47\\array\\Program.cs",
               "RelativeToolTip": "array\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T08:28:44.02Z",
               "EditorCaption": ""
