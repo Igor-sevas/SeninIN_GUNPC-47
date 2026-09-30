@@ -1,5 +1,4 @@
-﻿using System.Drawing;
-using static System.Console;
+﻿using static System.Console;
 
 namespace HomeWork
 {
@@ -8,63 +7,59 @@ namespace HomeWork
         static void Main(string[] args)
         {
 
-            Console.ForegroundColor = ConsoleColor.Red;
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Задача А.Задание 1. Массив с числами Фибоначчи:");
-            Console.ResetColor();
-            int[] fibonacci = new int[10];
+            ResetColor();
+            int[] fibonacci = new int[8];
 
             fibonacci[0] = 0;
             fibonacci[1] = 1;
 
             for (int i = 2; i < fibonacci.Length; i++)
             {
-                int result = fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-                WriteLine(string.Join(", ", result));
+                fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
             }
-
-            Console.ForegroundColor = ConsoleColor.Red;
+ 
+ for (int i = 0; i < fibonacci.Length; i++)
+{
+    Write(fibonacci[i] + " ");
+}
+WriteLine();
+ 
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Задача А.Задание 2. Массив с месяцами:");
-            Console.ResetColor();
+            ResetColor();
 
-            string[] months = new string[12];
-            {
-                months[0] = "January";
-                months[1] = "February";
-                months[2] = "March";
-                months[3] = "April";
-                months[4] = "May";
-                months[5] = "June";
-                months[6] = "July";
-                months[7] = "August";
-                months[8] = "September";
-                months[9] = "October";
-                months[10] = "November";
-                months[11] = "December";
-            }
-            ;
+            string[] months = {"January", "February", "March", "April", "May", "June", "July", "August",
+             "September", "October", "November", "December"};
             WriteLine(string.Join(", ", months));
 
-            Console.ForegroundColor = ConsoleColor.Red;
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Задача А.Задание 3. Двумерный массив");
-            Console.ResetColor();
-            int[,] matrix = new int[3, 3]
-            {
-    { 2, 3, 4 },
-    { 4, 9, 16 },
-    { 8, 27, 64 }
-            };
-            for (int i = 0; i < matrix.GetLength(0); i++)
-            {
-                for (int j = 0; j < matrix.GetLength(1); j++)
-                {
-                    Console.Write($"{matrix[i, j],5}");
-                }
-                Console.WriteLine();
-            }
+            ResetColor();
+            int[,] matrix = new int[3, 3];
 
-            Console.ForegroundColor = ConsoleColor.Red;
+for (int i = 0; i < 3; i++)          // строка (степень)
+{
+    for (int j = 0; j < 3; j++)      // столбец (число 2, 3, 4)
+    {
+        matrix[i, j] = (int)Math.Pow(j + 2, i + 1);
+    }
+}
+
+// Вывод матрицы
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3; j++)
+    {
+        Write(matrix[i, j] + "\t");
+    }
+    WriteLine();
+}
+
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Задача А.Задание 4. Ломанный массив");
-            Console.ResetColor();
+            ResetColor();
 
             double[][] jaggedArray = new double[3][]
             {
@@ -77,9 +72,9 @@ namespace HomeWork
                 WriteLine(string.Join(", ", jaggedArray[i]));
             }
 
-            Console.ForegroundColor = ConsoleColor.Red;
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Задача Б. Задание 5. Скопируйте первые 3 элемента первого массива во второй");
-            Console.ResetColor();
+            ResetColor();
 
             int[] array = { 1, 2, 3, 4, 5 };
             int[] array2 = { 7, 8, 9, 10, 11, 12, 13 };
@@ -90,9 +85,9 @@ namespace HomeWork
 
             WriteLine("Второй массив после изменения: " + string.Join(", ", array2));
 
-            Console.ForegroundColor = ConsoleColor.Red;
+            ForegroundColor = ConsoleColor.Red;
             WriteLine("Задача Б. Задание 6. Изменение размера массива");
-            Console.ResetColor();
+            ResetColor();
             WriteLine("Размер массива array до изменения: " + array.Length);
             Array.Resize(ref array, array.Length * 2);
             WriteLine("Размер массива array после изменения: " + array.Length);
