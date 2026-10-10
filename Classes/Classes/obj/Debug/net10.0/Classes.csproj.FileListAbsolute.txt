@@ -1,0 +1,15 @@
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\bin\Debug\net10.0\Classes.exe
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\bin\Debug\net10.0\Classes.deps.json
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\bin\Debug\net10.0\Classes.runtimeconfig.json
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\bin\Debug\net10.0\Classes.dll
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\bin\Debug\net10.0\Classes.pdb
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.AssemblyInfoInputs.cache
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.AssemblyInfo.cs
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.csproj.CoreCompileInputs.cache
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.dll
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\refint\Classes.dll
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.pdb
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.genruntimeconfig.cache
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\ref\Classes.dll
+C:\Users\fenix\Desktop\AllProject\Charp\SeninIN_GUNPC-47\Classes\Classes\Classes\obj\Debug\net10.0\Classes.csproj.Up2Date
