@@ -1,179 +1,52 @@
-# ============================================
-# C / C++ (твои исходные правила)
-# ============================================
-
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
-
-
-# ============================================
-# Visual Studio / VS Code (добавлено)
-# ============================================
-
-# Служебная папка Visual Studio (кэш, индексы, настройки)
-.vs/
-*.vsidx
-
-# Временные файлы VS
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-*.userprefs
-
-# Build results (сборка)
-[Bb]in/
-[Oo]bj/
+# Результаты сборки
 [Dd]ebug/
 [Rr]elease/
 x64/
 x86/
-build/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
 bld/
+[Bb]in/
+[Oo]bj/
 [Ll]og/
 [Ll]ogs/
 
-# Files built by Visual Studio
-*_i.c
-*_p.c
-*_h.h
-*.meta
-*.iobj
-*.ipdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*_wpftmp.csproj
-*.log
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
-
-# Visual Studio cache/options directory
+# Кэш и настройки Visual Studio
 .vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# ReSharper
+# Файлы NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.assets.json
+
+# Временные файлы
+*~
+~$*
+*.tmp
+*.log
+
+# Результаты тестов
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# ReSharper / Rider
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
-
-# .NET
-project.lock.json
-project.fragment.lock.json
-artifacts/
-
-# NuGet
-*.nupkg
-*.snupkg
-**/packages/*
-!**/packages/build/
-
-# Test results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
-*.trx
-*.coverage
-*.coveragexml
-
-
-# ============================================
-# IDE / редакторы
-# ============================================
-
-# VS Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# JetBrains Rider
 .idea/
-*.sln.iml
 
-# Vim
-*.sw?
-
-
-# ============================================
-# OS
-# ============================================
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Linux
-*~
-.directory
-.Trash-*
+# Прочее
+*.binlog
+*.pdb
+*.cache
