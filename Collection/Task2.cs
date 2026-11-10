@@ -22,7 +22,7 @@ namespace Collection
 
                 string input = ReadLine();
 
-                if (input == "exit")
+                if (input == "0")
                 {
                     WriteLine("Возврат в меню...");
                     return;
@@ -30,7 +30,7 @@ namespace Collection
 
                 if (!int.TryParse(input, out int choice))
                 {
-                    WriteLine("Неверный ввод. Введите число или -exit.");
+                    WriteLine("Неверный ввод. Введите число или 0.");
                     continue;
                 }
 

@@ -125,8 +125,6 @@ namespace Collection
                 Write("Обратный порядок:  ");
                 PrintBackward();
             }
-        
-
-       
+              
         }
     }
