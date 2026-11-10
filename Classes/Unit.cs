@@ -30,6 +30,15 @@
         {
             _health -= value * Armor;
             return _health <= 0f;
+            if (_health <= 0f)
+            {
+                _health = 0f;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

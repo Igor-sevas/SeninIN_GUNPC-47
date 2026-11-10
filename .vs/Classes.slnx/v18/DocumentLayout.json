@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\structures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\structures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|c:\\users\\fenix\\desktop\\allproject\\charp\\seninin_gunpc-47\\classes\\classes\\classes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1A629B-9BD8-52D9-006E-8FD3FE69244B}|Classes\\Classes.csproj|solutionrelative:classes\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interval.cs",
+              "DocumentMoniker": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Interval.cs",
+              "RelativeDocumentMoniker": "Classes\\Interval.cs",
+              "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Interval.cs",
+              "RelativeToolTip": "Classes\\Interval.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T12:22:44.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dungeon.cs",
+              "DocumentMoniker": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Dungeon.cs",
+              "RelativeDocumentMoniker": "Classes\\Dungeon.cs",
+              "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Dungeon.cs*",
+              "RelativeToolTip": "Classes\\Dungeon.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T12:13:12.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Structures.cs",
+              "DocumentMoniker": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Structures.cs",
+              "RelativeDocumentMoniker": "Classes\\Structures.cs",
+              "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Structures.cs",
+              "RelativeToolTip": "Classes\\Structures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T12:01:18.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Unit.cs",
               "DocumentMoniker": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Unit.cs",
               "RelativeDocumentMoniker": "Classes\\Unit.cs",
-              "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Unit.cs*",
-              "RelativeToolTip": "Classes\\Unit.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Unit.cs",
+              "RelativeToolTip": "Classes\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T15:50:21.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Weapon.cs",
               "RelativeDocumentMoniker": "Classes\\Weapon.cs",
               "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Weapon.cs",
               "RelativeToolTip": "Classes\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-10T13:13:56.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Program.cs",
               "RelativeDocumentMoniker": "Classes\\Program.cs",
               "ToolTip": "C:\\Users\\fenix\\Desktop\\AllProject\\Charp\\SeninIN_GUNPC-47\\Classes\\Classes\\Classes\\Program.cs",
               "RelativeToolTip": "Classes\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T13:13:30.788Z"
+              "WhenOpened": "2026-10-10T13:13:30.788Z",
+              "EditorCaption": ""
             }
           ]
         }
