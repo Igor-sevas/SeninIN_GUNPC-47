@@ -6,18 +6,19 @@
 
         public string Name { get; }
         public float Health => _health;
-        public int Damage { get; }
         public float Armor { get; }
 
-        public Unit() : this("Unknown Unit")
-        {
-        }
+        private readonly Interval _damageInterval;
 
-        public Unit(string name)
+        public Unit() : this("Unknown Unit", 0, 15) { }
+
+        public Unit(string name) : this(name, 0, 15) { }
+
+        public Unit(string name, int minDamage, int maxDamage)
         {
             Name = name;
             _health = 100f;
-            Damage = 5;
+            _damageInterval = new Interval(minDamage, maxDamage);
             Armor = 0.6f;
         }
 
@@ -26,19 +27,18 @@
             return _health * (1f + Armor);
         }
 
-        public bool SetDamage(float value)
+        public bool SetDamage()
         {
-            _health -= value * Armor;
-            return _health <= 0f;
+            float damage = _damageInterval.Get();
+            _health -= damage * Armor;
+
             if (_health <= 0f)
             {
                 _health = 0f;
                 return true;
             }
-            else
-            {
-                return false;
-            }
+
+            return false;
         }
     }
 }

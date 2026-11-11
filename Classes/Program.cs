@@ -16,23 +16,19 @@ namespace Classes
             }
 
             name = string.Join(" ", name.Split(' ', StringSplitOptions.RemoveEmptyEntries));
-            WriteLine("Enter minimum damage:");
-            int minDamage = int.TryParse(ReadLine(), out int parsedMinDamage) ? parsedMinDamage : 1;
-            WriteLine("Enter maximum damage:");
-            int maxDamage = int.TryParse(ReadLine(), out int parsedMaxDamage) ? parsedMaxDamage : 10;
+        
+            Weapon weapon = new Weapon(name);
 
-            Weapon weapon = new Weapon(name, minDamage, maxDamage);
-
-            WriteLine($"Weapon: \"{weapon.Name}\", Damage: {weapon.GetDamage()}, Durability: {weapon.Durability}");
+            WriteLine($"Weapon: \"{weapon.Name}\", Damage:  {(int) weapon.GetDamage()}, Durability: {weapon.Durability}");
 
 
             Dungeon dungeon = new Dungeon();
             dungeon.ShowRooms();
 
-            Console.WriteLine("Пример работы Interval:");
+            WriteLine("Пример работы Interval:");
             var interval = new Interval(10, 3); 
-            Console.WriteLine($"Min: {interval.minValue}, Max: {interval.maxValue}");
-            Console.WriteLine($"Random: {interval.Get()}");
+            WriteLine($"Min: {interval.Min}, Max: {interval.Max}");
+            WriteLine($"Random: {interval.Get()}");
         }
     }
 }

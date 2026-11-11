@@ -2,7 +2,7 @@
 
 namespace Classes
 {
-    public class Dungeon
+    internal class Dungeon
     {
         private Room[] _rooms;
 
@@ -22,9 +22,8 @@ namespace Classes
             for (int i = 0; i < _rooms.Length; i++)
             {
                 var room = _rooms[i];
-                WriteLine($"Unit of room {i}: {room.Unit.Name}");
-                WriteLine($"Weapon of room {i}: {room.Weapon.Name}");
-                WriteLine("---");
+                WriteLine("Unit of room " + room.Unit.Name);
+                WriteLine("Weapon of room " + room.Weapon.Name);
             }
         }
     }

@@ -1,53 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Text;
-
+﻿using static System.Console;
 namespace Classes
 {
-    internal class Interval
+    internal struct Interval
     {
         private static readonly Random _random = new Random();
-        public float minValue { get; }
-        public float maxValue { get; }
+        public float Min { get; }
+        public float Max { get; }
 
-        public Interval(int minValue, int maxValue)
+        public Interval(float minValue, float maxValue)
         {
 
             if (minValue < 0)
             {
-                Console.WriteLine("Некорректные данные: minValue отрицательное, заменено на 0.");
+                WriteLine("Некорректные данные: minValue отрицательное, заменено на 1.");
                 minValue = 0;
             }
             if (maxValue < 0)
             {
-                Console.WriteLine("Некорректные данные: maxValue отрицательное, заменено на 0.");
+                WriteLine("Некорректные данные: maxValue отрицательное, заменено на 1.");
                 maxValue = 0;
             }
 
 
             if (minValue > maxValue)
             {
-                Console.WriteLine("Некорректные данные: minValue > maxValue, значения поменяны местами.");
-                int tmp = minValue;
-                minValue = maxValue;
-                maxValue = tmp;
+                WriteLine("Некорректные данные: minValue > maxValue, значения поменяны местами.");
+                (minValue, maxValue) = (maxValue, minValue);
             }
 
 
             if (minValue == maxValue)
             {
-                Console.WriteLine("Некорректные данные: minValue == maxValue, maxValue увеличено на 10.");
+                WriteLine("Некорректные данные: minValue == maxValue, maxValue увеличено на 10.");
                 maxValue += 10;
             }
 
-            this.minValue = minValue;
-            this.maxValue = maxValue;
+            Min = minValue;
+            Max = maxValue;
         }
 
         public float Get()
         {
-            return minValue + (float)_random.NextDouble() * (maxValue - minValue);
+            return Min + (float)_random.NextDouble() * (Max - Min);
         }
     }
 }

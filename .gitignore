@@ -12,12 +12,24 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+
 # Кэш и настройки Visual Studio
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+# VS Code
+.vscode/
+
+# JetBrains Rider (уже есть .idea/)
+*.sln.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
 
 # Файлы NuGet
 *.nupkg
