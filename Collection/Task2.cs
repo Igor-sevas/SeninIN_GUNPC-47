@@ -11,13 +11,13 @@ namespace Collection
         {
             while (true)
             {
-                ForegroundColor = System.ConsoleColor.Blue;
+          
                 WriteLine("Задание 2: Словарь студентов");
                 WriteLine("1 - Добавить студента");
                 WriteLine("2 - Найти студента");
                 WriteLine("3 - Просмотреть всех");
-                WriteLine("exit - вернуться в меню");
-                ResetColor();
+                WriteLine("0 - вернуться в меню");
+               
                 Write("Выбор: ");
 
                 string input = ReadLine();
@@ -74,7 +74,7 @@ namespace Collection
             if (students.ContainsKey(name))
                 students[name] = estimation;
             else
-                students.Add(name, estimation);
+                students.TryAdd(name, estimation);
 
             WriteLine($"Добавлено: {name} — {estimation}");
         }

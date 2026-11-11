@@ -27,7 +27,7 @@ namespace Collection
                         task2.TaskLoop();
                         break;
                     case "3":
-                        Task3 task3 = new Task3();
+                        LinkedListTask task3 = new LinkedListTask();
                         task3.TaskLoop();
                         break;
                     default:
