@@ -62,7 +62,7 @@ namespace Strings
                         WriteLine("Введите слово, на которое нужно заменить:");
                         string replacementWord = ReadLine();
                         string replacedString = ReplaceWords(str6, wordToReplace, replacementWord);
-                        WriteLine($"Строка после замены: {replacedString}");
+                        WriteLine($"Результат выполнения: {replacedString}");
                         break;
                     default:
                         WriteLine("Неверный выбор. Пожалуйста, выберите действие от 1 до 6.");
@@ -105,6 +105,15 @@ namespace Strings
 
      public static string ReplaceWords(string inputString, string wordToReplace, string replacementWord)
         {
+            if (wordToReplace == null || replacementWord == null)
+            {
+                return "Введено пустое значение";
+            }
+            if (!inputString.Contains(wordToReplace)) 
+            {
+                return "Слово для замены не найдено в строке";
+            }
+
             return inputString.Replace(wordToReplace, replacementWord);
         }
         
