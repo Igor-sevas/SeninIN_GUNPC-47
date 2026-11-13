@@ -14,7 +14,9 @@ namespace Strings
                 "\n3. Информация о строке" +
                 "\n4. Первые пять символов" +
                 "\n5. Объединение массива строк" +
-                "\n6. Замена слов");
+                "\n6. Замена слов" +
+                "\n0. Выход из программы"
+                );
 
                 int choice = int.TryParse(ReadLine(), out choice) ? choice : 0;
 
@@ -31,6 +33,7 @@ namespace Strings
                     case 2:
                         WriteLine("Введите Ваше имя:");
                         string name = ReadLine();
+                        name = string.IsNullOrEmpty(name) ? "Аноним" : name;
                         WriteLine("Введите Ваш возраст:");
                         int age = int.TryParse(ReadLine(), out age) ? age : 0;
                         string greeting = GreetUser(name, age);
@@ -51,21 +54,33 @@ namespace Strings
                     case 5:
                         WriteLine("Введите строки, разделенные пробелом:");
                         string[] strings = ReadLine().Split(' ');
-                        string joinedStrings = MassiveString(strings);
-                        WriteLine($"Объединенная строка: {joinedStrings}");
+                        StringBuilder joinedStrings = JoinWords(strings);
+                        WriteLine($"Объединенная строка: {joinedStrings.ToString()}");
                         break;
                     case 6:
                         WriteLine("Введите строку:");
-                        string str6 = ReadLine();
+                        string input = ReadLine();
+                        string str6 = string.IsNullOrEmpty(input) ? "Строка по умолчанию" : input;
                         WriteLine("Введите слово, которое нужно заменить:");
                         string wordToReplace = ReadLine();
                         WriteLine("Введите слово, на которое нужно заменить:");
                         string replacementWord = ReadLine();
-                        string replacedString = ReplaceWords(str6, wordToReplace, replacementWord);
-                        WriteLine($"Результат выполнения: {replacedString}");
+                        bool success = TryReplaceWords(str6, wordToReplace, replacementWord, out string replacedString);
+                        if (success)
+                        {
+                            WriteLine($"Результат выполнения: {replacedString}");
+                        }
+                        else
+                        {
+                            WriteLine("Замена невозможна: пустая строка или пустое слово для замены.");
+                        }
                         break;
+                    case 0:
+                        WriteLine("Выход из программы.");
+
+                        return;
                     default:
-                        WriteLine("Неверный выбор. Пожалуйста, выберите действие от 1 до 6.");
+                        WriteLine("Неверный выбор. Пожалуйста, выберите действие от 0 до 6.");
                         break;
                 }
             }
@@ -78,7 +93,8 @@ namespace Strings
 
         static string GreetUser(string name, int age)
         {
-            return $"Hello, {name}! You are {age} years old.";
+            return $"Hello, {name}!" +
+                $"\nYou are {age} years old.";
         }
 
         static string GetStringInfo(string str)
@@ -91,31 +107,33 @@ namespace Strings
         {
             return str.Substring(0, Math.Min(5, str.Length));
         }
-        static string MassiveString(string[] str)
+        static StringBuilder JoinWords(string[] str)
         {
             var sb = new StringBuilder();
-            for (int i = 0; i < str.Length; i++)
-            {
-                if (i > 0)
-                    sb.Append(' ');
-                sb.Append(str[i]);
-            }
-            return sb.ToString();
+            sb.AppendJoin(" ", str);
+            return sb;
         }
 
-     public static string ReplaceWords(string inputString, string wordToReplace, string replacementWord)
+
+        public static bool TryReplaceWords(
+    string inputString,
+    string wordToReplace,
+    string replacementWord,
+    out string result)
         {
-            if (wordToReplace == null || replacementWord == null)
+            result = inputString;
+
+            if (string.IsNullOrEmpty(inputString) ||
+                string.IsNullOrEmpty(wordToReplace) ||
+                replacementWord == null)
             {
-                return "Введено пустое значение";
-            }
-            if (!inputString.Contains(wordToReplace)) 
-            {
-                return "Слово для замены не найдено в строке";
+                
+                return false;   // замена невозможна
             }
 
-            return inputString.Replace(wordToReplace, replacementWord);
+            result = inputString.Replace(wordToReplace, replacementWord);
+            return true;
         }
-        
+
     }
 }
