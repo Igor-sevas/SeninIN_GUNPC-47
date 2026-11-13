@@ -4,7 +4,7 @@ namespace Classes
 {
     internal class Dungeon
     {
-        private Room[] _rooms;
+        private readonly Room[] _rooms;
 
         public Dungeon()
         {
@@ -24,6 +24,8 @@ namespace Classes
                 var room = _rooms[i];
                 WriteLine("Unit of room " + room.Unit.Name);
                 WriteLine("Weapon of room " + room.Weapon.Name);
+                WriteLine($"Unit damage: {room.Unit.Damage.Min}-{room.Unit.Damage.Max}");
+                WriteLine($"Weapon damage: {room.Weapon.Damage.Min}-{room.Weapon.Damage.Max}");
             }
         }
     }

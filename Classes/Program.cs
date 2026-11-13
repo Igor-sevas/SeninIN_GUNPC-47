@@ -19,7 +19,7 @@ namespace Classes
         
             Weapon weapon = new Weapon(name);
 
-            WriteLine($"Weapon: \"{weapon.Name}\", Damage:  {(int) weapon.GetDamage()}, Durability: {weapon.Durability}");
+            WriteLine($"Weapon: \"{weapon.Name}\", Damage:  {weapon.GetDamage()}, Durability: {weapon.Durability}");
 
 
             Dungeon dungeon = new Dungeon();

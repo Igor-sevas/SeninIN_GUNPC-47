@@ -12,12 +12,12 @@ namespace Classes
 
             if (minValue < 0)
             {
-                WriteLine("Некорректные данные: minValue отрицательное, заменено на 1.");
+                WriteLine("Некорректные данные: minValue отрицательное, заменено на 0.");
                 minValue = 0;
             }
             if (maxValue < 0)
             {
-                WriteLine("Некорректные данные: maxValue отрицательное, заменено на 1.");
+                WriteLine("Некорректные данные: maxValue отрицательное, заменено на 0.");
                 maxValue = 0;
             }
 
